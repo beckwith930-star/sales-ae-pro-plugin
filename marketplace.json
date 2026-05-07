@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "name": "sales-ae-pro",
+  "display_name": "Sales AE Pro",
+  "description": "Enterprise AE toolkit for B2B technology sales. Covers the full deal cycle: prospect research, call prep, post-meeting processing, pipeline hygiene, outreach generation, business case building, and presentation coaching.",
+  "version": "1.0.0",
+  "author": "beckwith930-star",
+  "repository": "https://github.com/beckwith930-star/sales-ae-pro-plugin",
+  "license": "MIT",
+  "categories": ["sales", "productivity", "crm"],
+  "keywords": ["sales", "ae", "enterprise", "b2b", "crm", "salesforce", "pipeline", "outreach", "discovery", "qualification"],
+  "commands": [
+    {
+      "name": "ae:prospect",
+      "description": "Full prospect research: company brief, ICP fit, leadership contacts, news, competitive landscape, facility footprint"
+    },
+    {
+      "name": "ae:call-prep",
+      "description": "Pre-call package: CRM brief, discovery questions mapped to qualification gates, talk track, objections"
+    },
+    {
+      "name": "ae:post-meeting",
+      "description": "Salesforce note, internal leadership briefing, follow-up email, qualification checklist update"
+    },
+    {
+      "name": "ae:pipeline",
+      "description": "Stale deal flags, qualification gap matrix, weighted pipeline, prioritized action list"
+    },
+    {
+      "name": "ae:outreach",
+      "description": "Cold email, LinkedIn connection + follow-up, phone talk track, 3-week cadence plan"
+    },
+    {
+      "name": "ae:deck-review",
+      "description": "TED framework scoring, weak slide identification, specific improvement recommendations"
+    },
+    {
+      "name": "ae:business-case",
+      "description": "Internal business case from public data: exec summary, pain mapping, opportunity sizing, pilot playbook"
+    },
+    {
+      "name": "ae:weekly",
+      "description": "Weekly pipeline review + 1:1 prep document"
+    },
+    {
+      "name": "ae:qbr",
+      "description": "Full QBR deck outline and narrative with coaching feedback"
+    }
+  ],
+  "skills": [
+    "prospect-research",
+    "discovery-call-prep",
+    "post-meeting-processing",
+    "pipeline-hygiene",
+    "outreach-generation",
+    "business-case-builder",
+    "presentation-coach",
+    "qualification-framework"
+  ],
+  "integrations": {
+    "required": ["salesforce-cli"],
+    "optional": ["gmail-mcp", "slack-mcp", "google-drive-mcp"]
+  }
+}

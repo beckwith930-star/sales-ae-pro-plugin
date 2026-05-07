@@ -1,0 +1,14 @@
+{
+  "name": "sales-ae-pro",
+  "description": "Enterprise AE toolkit — prospect research, call prep, pipeline hygiene, outreach, business cases, and presentation coaching for B2B technology sales.",
+  "version": "1.0.0",
+  "author": {
+    "name": "beckwith930-star",
+    "url": "https://github.com/beckwith930-star"
+  },
+  "keywords": ["sales", "ae", "enterprise", "b2b", "crm", "salesforce", "pipeline", "outreach"],
+  "commands": "./commands",
+  "skills": "./skills",
+  "config": "./config",
+  "mcpServers": "./.mcp.json"
+}

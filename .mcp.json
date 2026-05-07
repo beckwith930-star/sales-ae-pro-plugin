@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "gmail": {
+      "type": "sse",
+      "url": "https://mcp.gmail.com/sse",
+      "comment": "Gmail MCP — provides email read/search/send. Requires Google OAuth. Remove if using CLI-based Gmail access instead."
+    },
+    "slack": {
+      "type": "sse",
+      "url": "https://mcp.slack.com/sse",
+      "comment": "Slack MCP — enables reading channels and posting messages. Remove if Slack is not used."
+    },
+    "google-drive": {
+      "type": "sse",
+      "url": "https://mcp.googleapis.com/drive/sse",
+      "comment": "Google Drive MCP — enables reading and writing Google Docs. Remove if not used."
+    }
+  }
+}
