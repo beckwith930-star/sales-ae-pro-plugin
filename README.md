@@ -6,6 +6,8 @@ Designed for Account Executives selling complex B2B solutions into enterprise ac
 
 A three-gate qualification framework is embedded across all deal workflows. The framework is methodology-agnostic and maps cleanly to MEDDIC, MEDDPICC, BANT, or Challenger.
 
+> **Want this installed and tuned for your team instead of doing it yourself?** See [qualifyr.io](https://qualifyr.io) for concierge packages — $1,500 Starter / $3,500 Growth / $7,500 Enterprise.
+
 ---
 
 ## Slash Commands
